@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Relationship Protocol</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="container">
+    <div id="terminal"></div>
+
+    <button id="runBtn" class="hidden">Run Final Query</button>
+
+    <div id="result" class="hidden">
+        <pre>
+SELECT *
+FROM my_life
+WHERE valentine = you;
+        </pre>
+
+        <h2>Will you be my Valentine?</h2>
+
+        <div class="buttons">
+            <button class="yes" onclick="accept()">Yes 💘</button>
+            <button id="noBtn" class="no">No</button>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
