@@ -44,6 +44,7 @@ function accept() {
         <div style="text-align:center;color:#00ff9c;font-family:monospace">
             <h1>Query Accepted ✔</h1>
             <p>Best outcome detected.</p>
+            <p>Check outside Princess <3 </p>
         </div>
     `;
 }
